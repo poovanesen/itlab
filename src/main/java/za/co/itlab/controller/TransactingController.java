@@ -24,6 +24,9 @@ public class TransactingController {
 
 	@RequestMapping(value="/greeting", method = RequestMethod.GET,produces="application/json")
 	Boolean home() {
-		return true;
+		if (camelContext == null) 
+			return  false; 
+	    else return true;
+		
 	}
 }

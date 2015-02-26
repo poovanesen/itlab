@@ -24,11 +24,6 @@
             <version>${camel.version}</version>
         </dependency>
         <dependency>
-    	<groupId>org.apache.camel</groupId>
-    		<artifactId>camel-spring-boot</artifactId>
-    		<version>${camel.version}</version> <!-- use the same version as your Camel core version -->
-</dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
